@@ -56,5 +56,5 @@ def test_complex_roots():
     assert "Reduced form: 1 * X^0 + 2 * X^1 + 5 * X^2 = 0" in output
     assert "Polynomial degree: 2" in output
     assert "Discriminant is strictly negative" in output
-    assert "-1/5 + 2i/5" in output
-    assert "-1/5 - 2i/5" in output
+    assert "-0.2 + 0.4i" in output
+    assert "-0.2 - 0.4i" in output
