@@ -48,3 +48,32 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
+
+# import sys
+
+
+# from parser_mandatory import parse_equation
+# from solver_mandatory import solve_polynomial
+
+# def main():
+#     if len(sys.argv) != 2:
+#         print("Usage: python3 computor_mandatory.py <equation>")
+#         sys.exit(1)
+
+#     equation_str = sys.argv[1]
+
+#     try:
+
+#         coefficients = parse_equation(equation_str)
+
+#         solve_polynomial(coefficients)
+        
+#     except ValueError as e:
+#         print(f"{e}")
+#     except Exception as e:
+#         print(f"An unexpected error occurred: {e}")
+
+# if __name__ == "__main__":
+#     main()
